@@ -1,0 +1,14 @@
+# Ignore unnecessary files and folders
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+*.log
+*.idea/
+.vscode/
+.venv/
+.env
+# Ignore dataset folders
+datasets/
+*.h5
