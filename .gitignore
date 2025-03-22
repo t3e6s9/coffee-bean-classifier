@@ -1,14 +1,16 @@
-# Ignore unnecessary files and folders
+# Ignore Python cache and system files
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+*.db
+*.sqlite3
 .DS_Store
-*.log
-*.idea/
-.vscode/
-.venv/
 .env
-# Ignore dataset folders
-datasets/
+*.log
+
+# Ignore TensorFlow and model checkpoints
+*.ckpt
 *.h5
+*.keras
+*.tflite
